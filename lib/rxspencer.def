@@ -1,0 +1,7 @@
+; g:\mingw\3.4.5\bin\dlltool.exe --output-def=rxspencer.def ../regcomp.o ../regerror.o ../regexec.o ../regfree.o ../rxspencer-dllversion.o rxspencer-dll-res.o
+EXPORTS
+	regcomp @ 1
+	regerror @ 2
+	regexec @ 3
+	regfree @ 4
+	DllGetVersion @ 5

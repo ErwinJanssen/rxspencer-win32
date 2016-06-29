@@ -1,0 +1,45 @@
+make  check-TESTS
+make[1]: Map '/cygdrive/j/Devel/rxspencer/3.8.g3/rxspencer-3.8.g.3' wordt binnengegaan
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"rxspencer\" -DVERSION=\"alpha3.8.g3\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1  -I. -I../rxspencer-3.8.g.3-src  -DPOSIX_MISTAKE -ID:/Progra~1/GnuWin32/include      -Wall -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math   -c -DREDEBUG -DRXSPENCER_STATIC ../rxspencer-3.8.g.3-src/split.c -o split.d
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"rxspencer\" -DVERSION=\"alpha3.8.g3\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1  -I. -I../rxspencer-3.8.g.3-src  -DPOSIX_MISTAKE -ID:/Progra~1/GnuWin32/include      -Wall -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math   -c -DREDEBUG -DRXSPENCER_STATIC ../rxspencer-3.8.g.3-src/debug.c -o debug.d
+../rxspencer-3.8.g.3-src/debug.c: In function `s_print':
+../rxspencer-3.8.g.3-src/debug.c:219: warning: int format, long int arg (arg 3)
+../rxspencer-3.8.g.3-src/debug.c:219: warning: int format, sop arg (arg 4)
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"rxspencer\" -DVERSION=\"alpha3.8.g3\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1  -I. -I../rxspencer-3.8.g.3-src  -DPOSIX_MISTAKE -ID:/Progra~1/GnuWin32/include      -Wall -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math   -c -DREDEBUG -DRXSPENCER_STATIC ../rxspencer-3.8.g.3-src/main.c -o main.d
+../rxspencer-3.8.g.3-src/main.c:27: warning: return type defaults to `int'
+../rxspencer-3.8.g.3-src/main.c: In function `main':
+../rxspencer-3.8.g.3-src/main.c:44: warning: implicit declaration of function `getopt'
+../rxspencer-3.8.g.3-src/main.c:53: warning: implicit declaration of function `atoi'
+../rxspencer-3.8.g.3-src/main.c:69: warning: implicit declaration of function `exit'
+../rxspencer-3.8.g.3-src/main.c: In function `efind':
+../rxspencer-3.8.g.3-src/main.c:502: warning: unused variable `n'
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"rxspencer\" -DVERSION=\"alpha3.8.g3\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1  -I. -I../rxspencer-3.8.g.3-src  -DPOSIX_MISTAKE -ID:/Progra~1/GnuWin32/include      -Wall -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math   -c -DREDEBUG -DRXSPENCER_STATIC ../rxspencer-3.8.g.3-src/regcomp.c -o regcomp.d
+In file included from ../rxspencer-3.8.g.3-src/regcomp.c:12:
+../rxspencer-3.8.g.3-src/cclass.h:7: warning: missing braces around initializer
+../rxspencer-3.8.g.3-src/cclass.h:7: warning: (near initialization for `cclasses[0]')
+In file included from ../rxspencer-3.8.g.3-src/regcomp.c:13:
+../rxspencer-3.8.g.3-src/cname.h:6: warning: missing braces around initializer
+../rxspencer-3.8.g.3-src/cname.h:6: warning: (near initialization for `cnames[0]')
+../rxspencer-3.8.g.3-src/regcomp.c: In function `p_ere':
+../rxspencer-3.8.g.3-src/regcomp.c:195: warning: 'prevback' might be used uninitialized in this function
+../rxspencer-3.8.g.3-src/regcomp.c:196: warning: 'prevfwd' might be used uninitialized in this function
+../rxspencer-3.8.g.3-src/regcomp.c: In function `regcomp':
+../rxspencer-3.8.g.3-src/regcomp.c:1498: warning: 'start' might be used uninitialized in this function
+../rxspencer-3.8.g.3-src/regcomp.c:1499: warning: 'newstart' might be used uninitialized in this function
+../rxspencer-3.8.g.3-src/regcomp.c: At top level:
+../rxspencer-3.8.g.3-src/regcomp.c:1180: warning: 'mcsub' defined but not used
+../rxspencer-3.8.g.3-src/regcomp.c:1207: warning: 'mcin' defined but not used
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"rxspencer\" -DVERSION=\"alpha3.8.g3\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1  -I. -I../rxspencer-3.8.g.3-src  -DPOSIX_MISTAKE -ID:/Progra~1/GnuWin32/include      -Wall -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math   -c -DREDEBUG -DRXSPENCER_STATIC ../rxspencer-3.8.g.3-src/regerror.c -o regerror.d
+../rxspencer-3.8.g.3-src/regerror.c:38: warning: missing braces around initializer
+../rxspencer-3.8.g.3-src/regerror.c:38: warning: (near initialization for `rerrs[0]')
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"rxspencer\" -DVERSION=\"alpha3.8.g3\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1  -I. -I../rxspencer-3.8.g.3-src  -DPOSIX_MISTAKE -ID:/Progra~1/GnuWin32/include      -Wall -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math   -c -DREDEBUG -DRXSPENCER_STATIC ../rxspencer-3.8.g.3-src/regexec.c -o regexec.d
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"rxspencer\" -DVERSION=\"alpha3.8.g3\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1  -I. -I../rxspencer-3.8.g.3-src  -DPOSIX_MISTAKE -ID:/Progra~1/GnuWin32/include      -Wall -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math   -c -DREDEBUG -DRXSPENCER_STATIC ../rxspencer-3.8.g.3-src/regfree.c -o regfree.d
+/bin/sh ./libtool --mode=link gcc  -Wall -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math    -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -LD:/Progra~1/GnuWin32/lib    -o re -o re split.d debug.d main.d regcomp.d regerror.d regexec.d regfree.d
+gcc -Wall -O3 -fms-extensions -mms-bitfields -fno-exceptions -fomit-frame-pointer -march=i386 -ffast-math -Wl,-s -Wl,--force-exe-suffix -Wl,--enable-auto-import -Wl,--enable-runtime-pseudo-reloc -Wl,--allow-multiple-definition -Wl,--enable-stdcall-fixup -o re -o re split.d debug.d main.d regcomp.d regerror.d regexec.d regfree.d  -LD:/Progra~1/GnuWin32/lib
+PASS: test1.sh
+PASS: test2.sh
+PASS: test3.sh
+==================
+All 3 tests passed
+==================
+make[1]: Map '/cygdrive/j/Devel/rxspencer/3.8.g3/rxspencer-3.8.g.3' wordt verlaten
